@@ -19,6 +19,7 @@ function App() {
         //</a>
       //</header>
     //</div>
+
     <div id ="App">
 
       <div className="HomeBox">
@@ -49,7 +50,10 @@ function App() {
       </div>
   
     
+
+    
+
   );
 }
 
-export default App;
+export default App; 

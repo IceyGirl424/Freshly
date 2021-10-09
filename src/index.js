@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import SignUp from "./Signup";
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    // <React.StrictMode>
+    //<App />
+  // </React.StrictMode>,
+    <Router>
+        <Switch>
+            <Route path="/signup">
+                <SignUp/>
+            </Route>
+            <Route path="/">
+                <App/>
+            </Route>
+        </Switch>
+    </Router>,
   document.getElementById('root')
 );
 
