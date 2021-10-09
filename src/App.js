@@ -19,10 +19,9 @@ function App() {
         //</a>
       //</header>
     //</div>
-    <div id ="App">
-      Freshly
-    </div>
-  
+      <div id ="App">
+        Freshly
+      </div>
   );
 }
 
