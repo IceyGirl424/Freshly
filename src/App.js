@@ -27,7 +27,7 @@ function App() {
           <h3>Welcome to Freshly</h3>
           
           <div className="SecondHead">
-            <p> We strive to ensure that everyone has a <br></br> well-balanced, natural diet with just the <br></br>ingredients at hand. </p>
+            <h3> We strive to ensure that everyone has a <br></br> well-balanced, natural diet with just the <br></br>ingredients at hand. </h3>
           </div>
           
         <div>

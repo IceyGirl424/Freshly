@@ -2,7 +2,9 @@ import './Signup.css';
 function SignUp() {
     return (
         <div className="sign-up-form">
-            <p>Sign up page</p>
+            <form>
+                 <input type="text" name="name" />
+            </form>
         </div>
     );
 }
