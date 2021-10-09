@@ -1,15 +1,17 @@
+body{
+  background-image: url("https://cdn.discordapp.com/attachments/893314152691564597/896502889097355354/unknown.png");
+}
+
 .App {
   text-align: center;
 }
 
 #App {
-  padding: 300px;
+  padding: 10px;
   text-align: center;
-  font-size: 100px;
-}
-
-body {
-  background-color: #5018E5;
+  font-size: 50px;
+  font-style: Microsoft New Tai Lue;
+  color:#1F6D2F;
 }
 
 .App-logo {
@@ -45,4 +47,45 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.HomeBox{
+  border: 1px solid black;
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 700px;
+  height: 680px;
+  margin-left: 350px;
+  border: 0px;
+}
+
+.Head{
+  padding-top: 70px;
+  text-align: center ;
+}
+
+.SecondHead{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+ padding-top: 20px;
+}
+
+button{
+  background-color: #B4D2F3;
+  color: #1F6D2F;
+  border: 0px;
+  width: 300px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.HomeLoginButton{
+  padding-top: 80px;
+}
+
+.HomeSignUpButton{
+  padding-bottom: 10px;
 }
