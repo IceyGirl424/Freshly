@@ -19,12 +19,19 @@ body, #SignUpPage {
 }
 
 input {
-    text-align: center;
     background-color: #B4D2F3;
     border: 0px;
+    width: 400px;
+    height: 50px;
 }
 
 label {
-    font-size: 1.5vw;
+    font-size: 30px;
     text-align: left;
 }
+
+small, ul, li{
+    font-size: 10px;
+    text-align: left;
+}
+

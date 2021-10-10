@@ -10,9 +10,9 @@
 <div class="LoginHeader">
     <h3>Login</h3>
 </div>
-<form method="post">
+<form method="post" class="LoginInputText">
     {% csrf_token %}
     {{ form|crispy }}
-    <button type="submit">Login</button>
+    <button type="submit" class="LoginReadyButton">Login</button>
 </form>
 {% endblock %}
