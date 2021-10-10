@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import SignUp from "./Signup";
+import Search from "./Search";
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
@@ -14,6 +15,9 @@ ReactDOM.render(
         <Switch>
             <Route path="/signup">
                 <SignUp/>
+            </Route>
+            <Route path="/search">
+                <Search/>
             </Route>
             <Route path="/">
                 <App/>
