@@ -21,7 +21,7 @@ function App() {
       //</header>
     //</div>
 
-    <div id ="App">
+    <div id ="App" style={{backgroundImage:"url(https://cdn.discordapp.com/attachments/893663423164989440/896486493927907328/sunset.png)"}}>
 
       <div className="HomeBox">
       
@@ -43,9 +43,9 @@ function App() {
 
         <div  className="HomeSignUpButton">
           <a href="/signup">
-          <button>
-            SIGN UP
-          </button>
+            <button>
+              SIGN UP
+            </button>
           </a>
         </div>
       </div>
