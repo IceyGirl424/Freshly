@@ -15,17 +15,6 @@ body {
     height: 100%;
 }
 
-.ImgLink {
-    grid-area: 1 / 1 / span 2 / span 2;
-    display: grid;
-    grid-template-rows: repeat(12, 1fr);
-    grid-template-columns: repeat(12, 1fr);
-  }
-  
-  .ImgLink img {
-    grid-area: 4 / 4 / span 6 / span 6;
-  }
-  
 .LoginHeader {
     padding-top: 70px;
     text-align: center;
