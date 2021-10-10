@@ -32,7 +32,9 @@ function App() {
                 <h3 style={{fontSize: "1.5vw"}}>We strive to ensure that everyone has a <br></br> well-balanced, natural diet with just the <br></br>ingredients at hand.</h3>
             </div>
             <div className="HomeLoginButton">
+              <a href="/login">
                 <button>LOGIN</button>
+              </a>
             </div>
             <div className="HomeSignUpButton">
                 <a href="/signup">
