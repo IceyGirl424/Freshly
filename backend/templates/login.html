@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/App.css' %}">
+<link rel="stylesheet" href="{% static 'css/Login.css' %}">
+<link rel="stylesheet" href="{% static 'css/Signup.css' %}">
+{% endblock %}
+{% block content %}
+<div class="LoginHeader">
+    <h3>Login</h3>
+</div>
+<div class="LoginInputText">
+    <label>Enter an email:</label>
+</div>
+<form>
+    <input type="text" name="name" />
+</form>
+<div class="LoginInputText">
+    <label>Your Password:</label>
+</div>
+<form>
+    <input type="text" name="password" />
+</form>
+<div class="LoginReadyButton">
+    <button>
+        READY?
+    </button>
+</div>
+{% endblock %}

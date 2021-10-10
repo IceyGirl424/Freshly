@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/App.css' %}">
+{% endblock %}
+{% block content %}
+<div class="Head">
+    <h3 style="font-size: 3.5vw">Welcome to Freshly</h3>
+</div>
+<div class="SecondHead">
+    <h3 style="font-size: 1.5vw">We strive to ensure that everyone has a <br></br> well-balanced, natural diet with just the <br></br>ingredients at hand.</h3>
+</div>
+<div class="HomeLoginButton">
+  <a href="/login">
+    <button>LOGIN</button>
+  </a>
+</div>
+<div class="HomeSignUpButton">
+    <a href="/signup">
+        <button>SIGN UP</button>
+    </a>
+</div>
+{% endblock %}
