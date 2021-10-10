@@ -22,7 +22,7 @@ function App() {
       //</header>
     //</div>
 
-    <div id="App">
+    <div id ="App" style={{backgroundImage:"url(https://cdn.discordapp.com/attachments/893663423164989440/896486493927907328/sunset.png)"}}>
         <div className="HomeBox">
             <a href="/" className="ImgLink"><img src={logo} alt="Freshly Logo"/></a>
             <div className="Head">
