@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load crispy_forms_tags %}
 {% block head %}
 <link rel="stylesheet" href="{% static 'css/App.css' %}">
 <link rel="stylesheet" href="{% static 'css/Signup.css' %}">
@@ -8,8 +9,8 @@
 <div class="SignUpHeader">
     <h3 style="font-size: 3.5vw;">Sign Up</h3>
 </div>
-<form class="RegisterForm">
-    <label style="grid-area: 1 / 1 / span 1 / span 7;">Enter an email:</label>
+<form class="RegisterForm" method="post">
+    <!--<label style="grid-area: 1 / 1 / span 1 / span 7;">Enter an email:</label>
     <input style="grid-area: 1 / 1 / span 1 / span 12;" type="text" name="email"/>
     <label style="grid-area: 3 / 1 / span 1 / span 7;">Confirm email:</label>
     <input style="grid-area: 4 / 1 / span 1 / span 12;" type="text" name="email"/>
@@ -17,6 +18,10 @@
     <input style="grid-area: 7 / 1 / span 1 / span 12;" type="password" name="password"/>
     <label style="grid-area: 9 / 1 / span 1 / span 7;">Confirm password:</label>
     <input style="grid-area: 10 / 1 / span 1 / span 12;" type="password" name="confirm-password"/>
-    <button style="grid-area: 11 / 5 / span 4 / span 4;" type="submit">READY?</button>
+    <button style="grid-area: 11 / 5 / span 4 / span 4;" type="submit">READY?</button>-->
+    {% csrf_token %}
+    {{ form|crispy }}
+    <br/>
+    <button type="submit">READY?</button>
 </form>
 {% endblock %}

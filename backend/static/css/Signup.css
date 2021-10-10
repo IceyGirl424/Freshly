@@ -16,9 +16,6 @@ body, #SignUpPage {
 
 .RegisterForm {
     grid-area: 5 / 2 / span 8 / span 10;
-    display: grid;
-    grid-template-rows: repeat(12, 1fr);
-    grid-template-columns: repeat(12, 1fr);
 }
 
 input {
