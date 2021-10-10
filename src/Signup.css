@@ -1,45 +1,33 @@
-body {
+body, #SignUpPage {
     width: 100%;
     height: 100%;
 }
 
-.sign-up-form {
-    background-color: #ffffff;
-    border-radius: 50px;
-    width: 700px;
-    height: 680px;
-    margin-left: 350px;
-    border: 0px;
-    font-size: 50px;
-    font-style: Microsoft New Tai Lue;
-    color:#1F6D2F;
-}
-
 .SignUpHeader {
-    padding-top: 70px;
     text-align: center;
     font-weight: bolder;
     font-size: 3vw;
+    grid-area: 3 / 2 / span 2 / span 10;
 }
 
-.SignUpInputText {
-    padding-left: 100px;
+.SignUpHeader h3 {
+    margin: 0;
+}
+
+.RegisterForm {
+    grid-area: 5 / 2 / span 8 / span 10;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
 }
 
 input {
     text-align: center;
-    width: 500px;
-    height: 50px;
     background-color: #B4D2F3;
     border: 0px;
-    margin-left: 100px;
-}
-
-.SignUpReadyButton {
-    padding-top: 75px;
-    text-align: center;
 }
 
 label {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    text-align: left;
 }
