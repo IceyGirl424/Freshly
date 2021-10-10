@@ -26,10 +26,10 @@ function App() {
         <div className="HomeBox">
             <a href="/" className="ImgLink"><img src={logo} alt="Freshly Logo"/></a>
             <div className="Head">
-                <h3>Welcome to Freshly</h3>
+                <h3 style={{fontSize: "3.5vw"}}>Welcome to Freshly</h3>
             </div>
             <div className="SecondHead">
-                <h3>We strive to ensure that everyone has a <br></br> well-balanced, natural diet with just the <br></br>ingredients at hand.</h3>
+                <h3 style={{fontSize: "1.5vw"}}>We strive to ensure that everyone has a <br></br> well-balanced, natural diet with just the <br></br>ingredients at hand.</h3>
             </div>
             <div className="HomeLoginButton">
                 <button>LOGIN</button>
