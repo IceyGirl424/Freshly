@@ -1,0 +1,25 @@
+.SearchPageHeader {
+    color: #1F6D2F;
+    text-align: center;
+    height: 100%;
+    font-size: 3vw;
+    background-color: #b5cdb5;
+    margin-top: 0;
+}
+
+#SearchPage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.SearchText {
+    color: #1F6D2F;
+}
+
+.SearchBarCSS {
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0vw;
+    width: 500px;
+}

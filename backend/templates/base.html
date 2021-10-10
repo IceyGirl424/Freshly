@@ -5,7 +5,7 @@
     {% endblock %}
     <title>{% block title %}{% endblock %}</title>
 </head>
-<div id ="App">
+<div class="App" id="App">
     <div class="HomeBox">
         <a href="{% url 'accounts:home' %}" class="ImgLink"><img src="{% static 'img/freshly-logo.png' %}" alt="Freshly Logo"/></a>
         {% block content %}{% endblock %}

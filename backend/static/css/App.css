@@ -1,14 +1,14 @@
-html, #App, #root, .ImgLink img {
+html, .App, #root, .ImgLink img {
   width: 100%;
   height: 100%;
-  background: black;
+  background-image: url(https://cdn.discordapp.com/attachments/893314152691564597/896502889097355354/unknown.png);
 }
 
 .App {
   text-align: center;
 }
 
-#App, #SignUpPage {
+.App, #SignUpPage {
   padding: 10px;
   text-align: center;
   font-size: 50px;
