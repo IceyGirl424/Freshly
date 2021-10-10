@@ -6,6 +6,7 @@ import SignUp from "./Signup";
 import Search from "./Search";
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Login from './Login';
 
 ReactDOM.render(
     // <React.StrictMode>
@@ -13,6 +14,9 @@ ReactDOM.render(
   // </React.StrictMode>,
     <Router>
         <Switch>
+            <Route path="/login">
+                <Login/>
+            </Route>
             <Route path="/signup">
                 <SignUp/>
             </Route>
@@ -22,6 +26,7 @@ ReactDOM.render(
             <Route path="/">
                 <App/>
             </Route>
+            
         </Switch>
     </Router>,
   document.getElementById('root')
